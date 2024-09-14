@@ -19,7 +19,6 @@ export default function Accordion() {
         else cpyMultiple.splice(findIndexOfCurrentID, 1);
         setMultiple(cpyMultiple);
     }
-
     return (
         <div className="wrapper">
             <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>
