@@ -31,6 +31,7 @@ export default function Accordion() {
           <div>No data found!</div>
         )}
       </div>
+      
     </div>
   );
 }
